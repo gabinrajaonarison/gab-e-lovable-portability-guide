@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Cas pratique ProspectFlow CRM
+title: Cas pratique : projet CRM
 nav_order: 9
 ---
 
-# 8. Cas pratique : récupération de ProspectFlow CRM
+# 8. Cas pratique : récupération d'un projet CRM
 
 ## Contexte
 
-Le projet ProspectFlow CRM a été lancé sur Lovable avec Lovable Cloud. Le projet était récent et contenait peu de données. L’objectif était de reprendre la maîtrise du backend avec un Supabase externe, puis de sauvegarder le code sur GitHub.
+Un projet CRM a été lancé sur Lovable avec Lovable Cloud. Le projet était récent et contenait peu de données. L’objectif était de reprendre la maîtrise du backend avec un Supabase externe, puis de sauvegarder le code sur GitHub.
 
 Les identifiants, emails, UUID et clés ont été volontairement retirés de cette version publique.
 

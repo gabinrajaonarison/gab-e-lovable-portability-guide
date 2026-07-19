@@ -78,6 +78,6 @@ Avant chaque version majeure de ce guide :
 
 <div align="center">
 
-[← 8. Cas pratique ProspectFlow](08-cas-pratique-prospectflow.md) &nbsp;·&nbsp; [🏠 Accueil](index.md) &nbsp;·&nbsp; &nbsp;
+[← 8. Cas pratique : projet CRM](08-cas-pratique-crm.md) &nbsp;·&nbsp; [🏠 Accueil](index.md) &nbsp;·&nbsp; &nbsp;
 
 </div>

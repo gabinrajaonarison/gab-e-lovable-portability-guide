@@ -9,4 +9,4 @@
 - Vérifications Auth, profiles, triggers et RLS.
 - Bascule frontend et tests.
 - Portabilité vers d’autres agents IA.
-- Cas pratique ProspectFlow CRM anonymisé.
+- Cas pratique : projet CRM anonymisé.

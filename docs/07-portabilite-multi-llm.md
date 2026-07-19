@@ -126,6 +126,6 @@ Le backend Supabase reste le même tant que les variables d’environnement poin
 
 <div align="center">
 
-[← 6. Checklists](06-checklists.md) &nbsp;·&nbsp; [🏠 Accueil](index.md) &nbsp;·&nbsp; [8. Cas pratique ProspectFlow →](08-cas-pratique-prospectflow.md)
+[← 6. Checklists](06-checklists.md) &nbsp;·&nbsp; [🏠 Accueil](index.md) &nbsp;·&nbsp; [8. Cas pratique : projet CRM →](08-cas-pratique-crm.md)
 
 </div>

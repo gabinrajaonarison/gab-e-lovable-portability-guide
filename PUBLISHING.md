@@ -8,7 +8,7 @@ Créez un dépôt public séparé du dépôt privé de votre application :
 gab-e-lovable-portability-guide
 ```
 
-Ainsi, la documentation est publique sans exposer le code ou les données du projet ProspectFlow.
+Ainsi, la documentation est publique sans exposer le code ou les données du projet applicatif.
 
 ## Étapes
 

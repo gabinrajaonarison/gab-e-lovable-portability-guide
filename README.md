@@ -48,7 +48,7 @@ Ne publiez jamais :
 - [Dépannage](docs/05-depannage.md)
 - [Checklists](docs/06-checklists.md)
 - [Portabilité vers d’autres LLM](docs/07-portabilite-multi-llm.md)
-- [Cas pratique ProspectFlow CRM](docs/08-cas-pratique-prospectflow.md)
+- [Cas pratique : projet CRM](docs/08-cas-pratique-crm.md)
 - [Sources officielles](docs/09-sources-officielles.md)
 
 ## Version

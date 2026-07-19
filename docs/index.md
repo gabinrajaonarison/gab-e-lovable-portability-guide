@@ -67,7 +67,7 @@ Lovable Publish / Vercel / Netlify / autre hébergement
 - [5. Dépannage](05-depannage.md)
 - [6. Checklists opérationnelles](06-checklists.md)
 - [7. Portabilité vers Claude, ChatGPT et autres LLM](07-portabilite-multi-llm.md)
-- [8. Cas pratique ProspectFlow CRM](08-cas-pratique-prospectflow.md)
+- [8. Cas pratique : projet CRM](08-cas-pratique-crm.md)
 - [9. Sources officielles](09-sources-officielles.md)
 
 ## Avertissement
