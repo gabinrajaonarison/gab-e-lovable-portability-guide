@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Dépannage
+nav_order: 6
 ---
 
 # 5. Dépannage

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Portabilité multi-LLM
+nav_order: 8
 ---
 
 # 7. Passer de Lovable à Claude, ChatGPT, Codex, Cursor ou un IDE local

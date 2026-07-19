@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Bascule et validation
+nav_order: 5
 ---
 
 # 4. Bascule, sécurité et validation

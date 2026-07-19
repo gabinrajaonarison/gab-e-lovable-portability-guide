@@ -1,6 +1,22 @@
-title: The Gab-E Méthode — Portabilité Lovable
-subtitle: Construire avec Lovable sans perdre la maîtrise du code et du backend
-description: Guide pratique Lovable, GitHub, Supabase et migration multi-LLM.
-theme: jekyll-theme-cayman
+title: The Gab-E Méthode
+description: Portabilité Lovable → Supabase — construire sans perdre la maîtrise du code et du backend
 lang: fr-FR
-show_downloads: false
+
+# Thème avec menu latéral permanent (via GitHub Pages remote_theme)
+remote_theme: just-the-docs/just-the-docs@v0.7.0
+plugins:
+  - jekyll-remote-theme
+
+# Options just-the-docs
+color_scheme: light
+search_enabled: true
+heading_anchors: true
+
+# Lien vers le dépôt en haut à droite
+aux_links:
+  "Dépôt GitHub":
+    - "https://github.com/gabinrajaonarison/gab-e-lovable-portability-guide"
+aux_links_new_tab: true
+
+# Pied de page
+footer_content: "Gab-E — Guide de portabilité v0.1 · publié sous licence CC BY 4.0"

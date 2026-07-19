@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Accueil
+nav_order: 1
 ---
 
 # The Gab-E Méthode (KISS)

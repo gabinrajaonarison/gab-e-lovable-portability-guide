@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Prévenir Lovable Cloud
+nav_order: 3
 ---
 
 # 2. Prévenir l’enfermement dans Lovable Cloud

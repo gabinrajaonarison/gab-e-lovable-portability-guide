@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Checklists
+nav_order: 7
 ---
 
 # 6. Checklists opérationnelles
