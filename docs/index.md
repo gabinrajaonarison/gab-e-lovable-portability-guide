@@ -6,6 +6,8 @@ nav_order: 1
 
 # La Méthode Gab-E OPEN
 
+> 🌐 **English version available:** [read the guide in English](en.md)
+
 ## Construire vite avec Lovable, sans perdre la maîtrise du code ni du backend
 
 Lovable est un excellent accélérateur pour transformer une idée en application. Le risque apparaît lorsque le code, la base, l’authentification, le stockage et les secrets deviennent difficiles à déplacer vers un autre environnement.
@@ -61,6 +63,7 @@ Lovable Publish / Vercel / Netlify / autre hébergement
 ## Navigation
 
 - [🌱 Notre mission](mission.md)
+- [🌐 English version](en.md)
 - [1. Méthode Gab-E OPEN](01-methode-gab-e-open.md)
 - [2. Prévenir l’enfermement dans Lovable Cloud](02-prevenir-lovable-cloud.md)
 - [3. Migration de rattrapage Lovable Cloud vers Supabase](03-migration-rattrapage.md)
