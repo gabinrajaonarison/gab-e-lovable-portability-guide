@@ -1,4 +1,6 @@
-title: "Gab-E — Guide de portabilité Lovable → Supabase"
-description: "Méthode KISS + Ownership Gate pour garder la maîtrise de son code et de ses données (version publique v0.1, anonymisée)."
-theme: jekyll-theme-minimal
+title: The Gab-E Méthode — Portabilité Lovable
+subtitle: Construire avec Lovable sans perdre la maîtrise du code et du backend
+description: Guide pratique Lovable, GitHub, Supabase et migration multi-LLM.
+theme: jekyll-theme-cayman
+lang: fr-FR
 show_downloads: false

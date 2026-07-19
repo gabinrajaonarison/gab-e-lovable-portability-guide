@@ -1,58 +1,74 @@
-# Guide de portabilité Lovable → Supabase
-
-**Version publique 0.1 — anonymisée.**
-Garder la maîtrise de son code et de ses données quand on démarre un projet avec
-Lovable, et pouvoir migrer sereinement vers un Supabase que l'on possède.
-
-> ⚠️ **Anonymisation.** Cette version publique ne contient **aucun** email, UUID,
-> clé d'API, mot de passe ni identifiant de projet réel. Partout où une valeur
-> personnelle serait attendue, un **placeholder** est utilisé, par ex.
-> `<PROJECT_REF>`, `<DB_PASSWORD>`, `<GITHUB_USER>`.
-
-> ℹ️ **Statut.** Document de travail v0.1. Les procédures internes aux outils tiers
-> (Lovable, Supabase, GitHub) évoluent : vérifiez toujours la **documentation
-> officielle** citée dans [Sources](07-sources.md) avant d'exécuter une étape
-> sensible (export, suppression, restauration de base).
-
+---
+layout: default
+title: Accueil
 ---
 
-## La méthode en une phrase
+# The Gab-E Méthode (KISS)
 
-> **KISS + Ownership Gate** : garder l'architecture simple, et ne jamais avancer
-> sans être sûr de **posséder et contrôler** son code (GitHub) et ses données
-> (Supabase).
+## Construire vite avec Lovable, sans perdre la maîtrise du code ni du backend
 
-## Sommaire
+Lovable est un excellent accélérateur pour transformer une idée en application. Le risque apparaît lorsque le code, la base, l’authentification, le stockage et les secrets deviennent difficiles à déplacer vers un autre environnement.
 
-1. [Méthode KISS + Ownership Gate](01-demarrage-propre.md#méthode)
-2. [Démarrage propre : GitHub + Supabase dès le début](01-demarrage-propre.md)
-3. [Empêcher l'activation automatique de Lovable Cloud](01-demarrage-propre.md#empêcher-lactivation-automatique-de-lovable-cloud)
-4. [Migration Lovable Cloud → Supabase (rattrapage)](02-migration.md)
-5. [Sauvegardes PostgreSQL : `pg_restore`](02-migration.md#restauration-avec-pg_restore)
-6. [Vérifications Auth, `auth.identities`, profils, triggers, RLS](03-verifications.md)
-7. [Bascule du frontend](04-bascule-et-tests.md#bascule-du-frontend)
-8. [Tests de validation](04-bascule-et-tests.md#tests-de-validation)
-9. [Dépannage des erreurs courantes](05-depannage-checklist.md)
-10. [Checklist opérationnelle](05-depannage-checklist.md#checklist-opérationnelle)
-11. [Lovable → Claude, ChatGPT, Codex, Cursor ou IDE local](06-lovable-vers-ia.md)
-12. [Sources officielles et dates de vérification](07-sources.md)
+Ce guide formalise une règle simple :
 
----
+> **Lovable doit rester un accélérateur de construction, pas l’unique point de contrôle du projet.**
 
-## À qui s'adresse ce guide
+Le socle cible est le suivant :
 
-- Vous avez démarré (ou allez démarrer) un projet avec **Lovable**.
-- Vous voulez éviter de vous retrouver **enfermé** dans une base de données que
-  vous ne maîtrisez pas.
-- Vous préférez un stack **portable** : le code sur **GitHub**, les données sur un
-  **Supabase** que vous possédez, un hébergement de votre choix.
+```text
+Idée + User flow + Master Prompt
+              |
+              v
+        Lovable AI Agent
+              |
+              | génère et synchronise le code
+              v
+GitHub = source de vérité du code
+              |
+              +------> Claude / ChatGPT / Codex / Cursor / IDE local
+              |
+              v
+Supabase externe = PostgreSQL + Auth + Storage + Functions
+              |
+              v
+Lovable Publish / Vercel / Netlify / autre hébergement
+```
 
-## Ce que vous NE trouverez pas ici
+## Deux parcours
 
-- Aucune donnée réelle ni secret.
-- Aucun cas client identifiable (les exemples sont génériques et anonymisés).
-- Aucune promesse : les outils tiers changent — ce guide pointe vers leurs docs.
+### Parcours A — Préventif
 
----
+À utiliser pour un nouveau projet :
 
-*Publié via GitHub Pages. Contributions bienvenues via issues/PR.*
+1. définir les permissions Lovable Cloud ;
+2. connecter GitHub ;
+3. créer et connecter son Supabase ;
+4. seulement ensuite demander Auth, base ou stockage à Lovable.
+
+### Parcours B — Rattrapage
+
+À utiliser lorsqu’un projet est déjà sur Lovable Cloud :
+
+1. inventorier et exporter ;
+2. restaurer dans un Supabase contrôlé ;
+3. réparer les éléments incomplets ;
+4. vérifier Auth, profils, triggers et RLS ;
+5. connecter GitHub ;
+6. basculer l’application ;
+7. supprimer Lovable Cloud uniquement après validation.
+
+## Navigation
+
+- [1. Méthode Gab-E KISS](01-methode-gab-e-kiss.md)
+- [2. Prévenir l’enfermement dans Lovable Cloud](02-prevenir-lovable-cloud.md)
+- [3. Migration de rattrapage Lovable Cloud vers Supabase](03-migration-rattrapage.md)
+- [4. Bascule, sécurité et validation](04-bascule-validation.md)
+- [5. Dépannage](05-depannage.md)
+- [6. Checklists opérationnelles](06-checklists.md)
+- [7. Portabilité vers Claude, ChatGPT et autres LLM](07-portabilite-multi-llm.md)
+- [8. Cas pratique ProspectFlow CRM](08-cas-pratique-prospectflow.md)
+- [9. Sources officielles](09-sources-officielles.md)
+
+## Avertissement
+
+Les suppressions de backend, les restaurations PostgreSQL et les changements d’Auth peuvent être irréversibles. Travaillez d’abord sur un projet neuf ou un environnement de test, conservez plusieurs sauvegardes et ne copiez jamais de secrets dans un prompt ou un dépôt public.

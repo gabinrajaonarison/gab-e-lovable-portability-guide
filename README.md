@@ -1,32 +1,58 @@
-# Gab-E — Guide de portabilité Lovable → Supabase
+# The Gab-E Méthode (KISS) — Construire avec Lovable sans lock-in
 
-Version publique **0.1**, anonymisée. Méthode **KISS + Ownership Gate** pour garder
-la maîtrise de son code (GitHub) et de ses données (Supabase) avec un projet
-démarré sous Lovable, et migrer sereinement vers un Supabase que l'on possède.
+Documentation publique et réutilisable pour :
 
-📖 **Documentation (GitHub Pages) :** une fois Pages activé, le site est publié à
-partir du dossier [`/docs`](docs/index.md).
+- démarrer un projet Lovable avec un **GitHub** et un **Supabase externe** dès le départ ;
+- éviter l’activation automatique de Lovable Cloud lorsque ce n’est pas souhaité ;
+- récupérer un projet déjà engagé sur Lovable Cloud ;
+- restaurer la base, Auth, profils, triggers et politiques RLS ;
+- conserver un socle portable vers Claude, ChatGPT, Codex, Cursor, un IDE local, Vercel, Netlify ou une autre infrastructure.
 
-## Sommaire
+## Format recommandé
+
+Cette documentation est conçue pour être publiée dans un **dépôt GitHub public séparé du dépôt de l’application**, via **GitHub Pages**. Le dépôt de l’application peut rester privé.
+
+## Publication rapide
+
+1. Créez un dépôt GitHub public, par exemple `gab-e-lovable-portability-guide`.
+2. Copiez le contenu de ce dossier à la racine du dépôt.
+3. Poussez sur la branche `main`.
+4. Ouvrez `Settings > Pages`.
+5. Choisissez `Deploy from a branch`.
+6. Sélectionnez `main` puis `/docs`.
+7. Enregistrez.
+
+GitHub Pages publiera le site à une adresse proche de :
+
+```text
+https://VOTRE-COMPTE.github.io/gab-e-lovable-portability-guide/
+```
+
+## Sécurité
+
+Ne publiez jamais :
+
+- un dump `.backup`, `.sql`, `.sql.gz` ;
+- un fichier `.env` réel ;
+- une `service_role`, une secret key ou un mot de passe PostgreSQL ;
+- une chaîne de connexion contenant un mot de passe ;
+- une capture contenant des emails, UUID, clés, noms de clients ou données métier non masquées.
+
+## Contenu
 
 - [Accueil](docs/index.md)
-- [Démarrage propre : GitHub + Supabase](docs/01-demarrage-propre.md)
-- [Migration Lovable → Supabase + `pg_restore`](docs/02-migration.md)
-- [Vérifications Auth / RLS](docs/03-verifications.md)
-- [Bascule du frontend & tests](docs/04-bascule-et-tests.md)
-- [Dépannage & checklist](docs/05-depannage-checklist.md)
-- [Lovable → Claude / ChatGPT / Codex / Cursor / IDE local](docs/06-lovable-vers-ia.md)
-- [Sources & vérification](docs/07-sources.md)
+- [Méthode Gab-E KISS](docs/01-methode-gab-e-kiss.md)
+- [Prévenir Lovable Cloud](docs/02-prevenir-lovable-cloud.md)
+- [Migration de rattrapage](docs/03-migration-rattrapage.md)
+- [Bascule et validation](docs/04-bascule-validation.md)
+- [Dépannage](docs/05-depannage.md)
+- [Checklists](docs/06-checklists.md)
+- [Portabilité vers d’autres LLM](docs/07-portabilite-multi-llm.md)
+- [Cas pratique ProspectFlow CRM](docs/08-cas-pratique-prospectflow.md)
+- [Sources officielles](docs/09-sources-officielles.md)
 
-## Activer GitHub Pages
+## Version
 
-`Settings → Pages → Deploy from a branch → main → dossier /docs → Save`.
+Version initiale : **0.1 — 19 juillet 2026**.
 
-## Anonymisation
-
-Aucun email, UUID, clé, mot de passe ni identifiant de projet réel. Uniquement des
-placeholders (`<PROJECT_REF>`, `<DB_PASSWORD>`, `<GITHUB_USER>`…).
-
-## Licence
-
-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — réutilisation libre avec attribution.
+Les interfaces SaaS évoluent rapidement. Chaque procédure doit être revérifiée avant une suppression, une migration ou une bascule de production.
