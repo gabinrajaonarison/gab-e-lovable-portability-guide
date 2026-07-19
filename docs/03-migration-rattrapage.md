@@ -311,3 +311,13 @@ http://localhost:5173/**
 ```
 
 Ajoutez les routes de callback, reset password et preview réellement utilisées.
+
+---
+
+<!-- nav-footer -->
+
+<div align="center">
+
+[← 2. Prévenir Lovable Cloud](02-prevenir-lovable-cloud.md) &nbsp;·&nbsp; [🏠 Accueil](index.md) &nbsp;·&nbsp; [4. Bascule et validation →](04-bascule-validation.md)
+
+</div>

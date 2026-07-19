@@ -126,3 +126,13 @@ Si le fichier contient un secret :
 3. nettoyer l’historique si le secret a été poussé ;
 4. ajouter `.env` dans `.gitignore` ;
 5. conserver seulement `.env.example`.
+
+---
+
+<!-- nav-footer -->
+
+<div align="center">
+
+[← 4. Bascule et validation](04-bascule-validation.md) &nbsp;·&nbsp; [🏠 Accueil](index.md) &nbsp;·&nbsp; [6. Checklists →](06-checklists.md)
+
+</div>

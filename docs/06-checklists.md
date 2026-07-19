@@ -78,3 +78,13 @@ title: Checklists
 - [ ] Aucun nom de client sans autorisation.
 - [ ] Tous les exemples utilisent des placeholders.
 - [ ] Les captures ont été recadrées ou floutées.
+
+---
+
+<!-- nav-footer -->
+
+<div align="center">
+
+[← 5. Dépannage](05-depannage.md) &nbsp;·&nbsp; [🏠 Accueil](index.md) &nbsp;·&nbsp; [7. Portabilité multi-LLM →](07-portabilite-multi-llm.md)
+
+</div>

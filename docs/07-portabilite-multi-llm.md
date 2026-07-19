@@ -118,3 +118,13 @@ Le backend Supabase reste le même tant que les variables d’environnement poin
 4. Claude ou ChatGPT pour les audits, refactorings et tâches ciblées.
 5. CI/CD pour valider build, lint et tests.
 6. GitHub Pages pour documenter la méthode et les décisions.
+
+---
+
+<!-- nav-footer -->
+
+<div align="center">
+
+[← 6. Checklists](06-checklists.md) &nbsp;·&nbsp; [🏠 Accueil](index.md) &nbsp;·&nbsp; [8. Cas pratique ProspectFlow →](08-cas-pratique-prospectflow.md)
+
+</div>

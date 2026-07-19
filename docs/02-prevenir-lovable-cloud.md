@@ -131,3 +131,13 @@ Le projet neuf est prêt lorsque :
 - les variables frontend sont publiques ;
 - les secrets sont stockés côté serveur ;
 - les migrations seront versionnées.
+
+---
+
+<!-- nav-footer -->
+
+<div align="center">
+
+[← 1. Méthode Gab-E KISS](01-methode-gab-e-kiss.md) &nbsp;·&nbsp; [🏠 Accueil](index.md) &nbsp;·&nbsp; [3. Migration de rattrapage →](03-migration-rattrapage.md)
+
+</div>

@@ -84,3 +84,13 @@ Préciser la stack, les conventions, les migrations, Auth, RLS et tests.
 CONSTRAINTS
 Interdire l’activation de Lovable Cloud, l’exposition de secrets, les modifications hors périmètre et les migrations destructrices non validées.
 ```
+
+---
+
+<!-- nav-footer -->
+
+<div align="center">
+
+[← Accueil](index.md) &nbsp;·&nbsp; [🏠 Accueil](index.md) &nbsp;·&nbsp; [2. Prévenir Lovable Cloud →](02-prevenir-lovable-cloud.md)
+
+</div>

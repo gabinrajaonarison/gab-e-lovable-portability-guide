@@ -72,3 +72,13 @@ Lovable Publish / Vercel / Netlify / autre hébergement
 ## Avertissement
 
 Les suppressions de backend, les restaurations PostgreSQL et les changements d’Auth peuvent être irréversibles. Travaillez d’abord sur un projet neuf ou un environnement de test, conservez plusieurs sauvegardes et ne copiez jamais de secrets dans un prompt ou un dépôt public.
+
+---
+
+<!-- nav-footer -->
+
+<div align="center">
+
+**[Commencer le guide → 1. Méthode Gab-E KISS](01-methode-gab-e-kiss.md)**
+
+</div>

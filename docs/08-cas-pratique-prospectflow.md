@@ -137,3 +137,13 @@ Le dépôt a ensuite été créé et le statut Lovable est devenu `Connected`.
 ## Enseignement principal
 
 Le rattrapage est possible, mais il est beaucoup plus simple d’appliquer le **Ownership Gate** avant la première demande backend.
+
+---
+
+<!-- nav-footer -->
+
+<div align="center">
+
+[← 7. Portabilité multi-LLM](07-portabilite-multi-llm.md) &nbsp;·&nbsp; [🏠 Accueil](index.md) &nbsp;·&nbsp; [9. Sources officielles →](09-sources-officielles.md)
+
+</div>

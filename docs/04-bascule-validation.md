@@ -171,3 +171,13 @@ Créez un second compte :
 - les endpoints serveur utilisent un contrôle d’autorisation explicite.
 
 Ce test valide réellement les policies RLS.
+
+---
+
+<!-- nav-footer -->
+
+<div align="center">
+
+[← 3. Migration de rattrapage](03-migration-rattrapage.md) &nbsp;·&nbsp; [🏠 Accueil](index.md) &nbsp;·&nbsp; [5. Dépannage →](05-depannage.md)
+
+</div>

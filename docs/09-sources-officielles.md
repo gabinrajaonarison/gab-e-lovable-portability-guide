@@ -70,3 +70,13 @@ Avant chaque version majeure de ce guide :
 4. vérifier les recommandations GitHub Pages ;
 5. mettre à jour la date de vérification ;
 6. créer une release GitHub avec un changelog.
+
+---
+
+<!-- nav-footer -->
+
+<div align="center">
+
+[← 8. Cas pratique ProspectFlow](08-cas-pratique-prospectflow.md) &nbsp;·&nbsp; [🏠 Accueil](index.md) &nbsp;·&nbsp; &nbsp;
+
+</div>
