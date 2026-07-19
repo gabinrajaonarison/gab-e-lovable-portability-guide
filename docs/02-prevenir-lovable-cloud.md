@@ -139,6 +139,6 @@ Le projet neuf est prêt lorsque :
 
 <div align="center">
 
-[← 1. Méthode Gab-E KISS](01-methode-gab-e-kiss.md) &nbsp;·&nbsp; [🏠 Accueil](index.md) &nbsp;·&nbsp; [3. Migration de rattrapage →](03-migration-rattrapage.md)
+[← 1. Méthode Gab-E OPEN](01-methode-gab-e-open.md) &nbsp;·&nbsp; [🏠 Accueil](index.md) &nbsp;·&nbsp; [3. Migration de rattrapage →](03-migration-rattrapage.md)
 
 </div>

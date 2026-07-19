@@ -1,14 +1,25 @@
 ---
 layout: default
-title: Méthode Gab-E KISS
+title: Méthode Gab-E OPEN
 nav_order: 2
 ---
 
-# 1. The Gab-E Méthode (KISS)
+# 1. La Méthode Gab-E OPEN
+
+## Ce que veut dire OPEN
+
+**Gab-E OPEN**, ce sont quatre exigences à tenir dès le départ :
+
+- **O — Ownership** : vous possédez votre code (GitHub) et vos données (Supabase).
+- **P — Portabilité** : le projet peut se déplacer vers un autre outil, assistant ou hébergeur.
+- **É — Écosystème** : le savoir et les briques restent ouverts, partageables, réutilisables.
+- **N — Neutralité** : aucun outil unique ne devient le seul point de contrôle du projet.
+
+C'est le même esprit que l'économie circulaire de Gab-E : rien ne s'enferme, tout peut se récupérer, se réemployer et se transmettre.
 
 ## La méthode d’origine
 
-La méthode Gab-E KISS vise à passer rapidement d’une idée à un premier produit testable :
+La méthode Gab-E OPEN vise à passer rapidement d’une idée à un premier produit testable :
 
 1. **Start with an Idea** — environ 5 minutes.
 2. **Find Design Inspiration** — environ 5 minutes sur Dribbble ou une source équivalente : formes, couleurs, densité, composants.

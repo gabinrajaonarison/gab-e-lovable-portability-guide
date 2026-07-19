@@ -4,7 +4,7 @@ title: Accueil
 nav_order: 1
 ---
 
-# The Gab-E Méthode (KISS)
+# La Méthode Gab-E OPEN
 
 ## Construire vite avec Lovable, sans perdre la maîtrise du code ni du backend
 
@@ -60,7 +60,7 @@ Lovable Publish / Vercel / Netlify / autre hébergement
 
 ## Navigation
 
-- [1. Méthode Gab-E KISS](01-methode-gab-e-kiss.md)
+- [1. Méthode Gab-E OPEN](01-methode-gab-e-open.md)
 - [2. Prévenir l’enfermement dans Lovable Cloud](02-prevenir-lovable-cloud.md)
 - [3. Migration de rattrapage Lovable Cloud vers Supabase](03-migration-rattrapage.md)
 - [4. Bascule, sécurité et validation](04-bascule-validation.md)
@@ -80,6 +80,6 @@ Les suppressions de backend, les restaurations PostgreSQL et les changements d�
 
 <div align="center">
 
-**[Commencer le guide → 1. Méthode Gab-E KISS](01-methode-gab-e-kiss.md)**
+**[Commencer le guide → 1. Méthode Gab-E OPEN](01-methode-gab-e-open.md)**
 
 </div>

@@ -1,4 +1,4 @@
-# The Gab-E Méthode (KISS) — Construire avec Lovable sans lock-in
+# La Méthode Gab-E OPEN — Construire avec Lovable sans lock-in
 
 Documentation publique et réutilisable pour :
 
@@ -41,7 +41,7 @@ Ne publiez jamais :
 ## Contenu
 
 - [Accueil](docs/index.md)
-- [Méthode Gab-E KISS](docs/01-methode-gab-e-kiss.md)
+- [Méthode Gab-E OPEN](docs/01-methode-gab-e-open.md)
 - [Prévenir Lovable Cloud](docs/02-prevenir-lovable-cloud.md)
 - [Migration de rattrapage](docs/03-migration-rattrapage.md)
 - [Bascule et validation](docs/04-bascule-validation.md)
