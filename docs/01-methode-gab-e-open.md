@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Méthode Gab-E OPEN
-nav_order: 2
+nav_order: 3
 ---
 
 # 1. La Méthode Gab-E OPEN

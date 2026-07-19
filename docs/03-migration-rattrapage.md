@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Migration de rattrapage
-nav_order: 4
+nav_order: 5
 ---
 
 # 3. Migration de rattrapage : Lovable Cloud vers votre Supabase

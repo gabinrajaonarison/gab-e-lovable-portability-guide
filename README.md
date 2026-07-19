@@ -41,6 +41,7 @@ Ne publiez jamais :
 ## Contenu
 
 - [Accueil](docs/index.md)
+- [Notre mission (FR / EN / MG)](docs/mission.md)
 - [Méthode Gab-E OPEN](docs/01-methode-gab-e-open.md)
 - [Prévenir Lovable Cloud](docs/02-prevenir-lovable-cloud.md)
 - [Migration de rattrapage](docs/03-migration-rattrapage.md)

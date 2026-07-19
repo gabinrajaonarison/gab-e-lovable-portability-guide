@@ -60,6 +60,7 @@ Lovable Publish / Vercel / Netlify / autre hébergement
 
 ## Navigation
 
+- [🌱 Notre mission](mission.md)
 - [1. Méthode Gab-E OPEN](01-methode-gab-e-open.md)
 - [2. Prévenir l’enfermement dans Lovable Cloud](02-prevenir-lovable-cloud.md)
 - [3. Migration de rattrapage Lovable Cloud vers Supabase](03-migration-rattrapage.md)
