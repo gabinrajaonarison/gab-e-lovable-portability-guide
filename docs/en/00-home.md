@@ -6,6 +6,8 @@ nav_order: 1
 ---
 
 > 🌐 Version française : [Accueil](../index.md)
+>
+> 📥 **1-page checklist (PDF):** [download the Gab-E OPEN checklist](../assets/Checklist-Gab-E-OPEN.pdf)
 
 # The Gab-E OPEN Method (KISS-free)
 

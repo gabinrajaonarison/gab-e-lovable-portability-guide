@@ -7,6 +7,8 @@ nav_order: 1
 # La Méthode Gab-E OPEN
 
 > 🌐 **English version available:** [read the guide in English](en.md)
+>
+> 📥 **Checklist (1 page, PDF) :** [télécharger la checklist Gab-E OPEN](assets/Checklist-Gab-E-OPEN.pdf)
 
 ## Construire vite avec Lovable, sans perdre la maîtrise du code ni du backend
 
@@ -63,6 +65,7 @@ Lovable Publish / Vercel / Netlify / autre hébergement
 ## Navigation
 
 - [🌱 Notre mission](mission.md)
+- [📥 Checklist (PDF)](assets/Checklist-Gab-E-OPEN.pdf)
 - [🌐 English version](en.md)
 - [1. Méthode Gab-E OPEN](01-methode-gab-e-open.md)
 - [2. Prévenir l’enfermement dans Lovable Cloud](02-prevenir-lovable-cloud.md)
